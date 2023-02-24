@@ -1,0 +1,38 @@
+•	Q1)
+The three stages of the reproducible workflow are:Data Collection, Data processing, and Data analysis,. Here's an example of how these stages could be implemented for the given table:
+1) Data Collection
+The should be entered into a spreadsheet program and saved as a CSV fil
+Once this file is created, it should be given a name and saved in a useful location. (raw_Fraility.csv)
+At the same time that data are saved, a metadata file should also be created and saved with it.
+•	Frailty codes indicate Person suffering with Frailty(Y), Person not suffering with Frailty (N). 
+•	Height in inches ,Weight in Pounds
+2) Data Preparation
+In this stage, we'll focus on cleaning and preparing the raw data.
+Work to be done:
+•	Check for missing values
+•	Check for outliers and errors
+•	Add any necessary metadata or annotations
+Folder structure:
+•	Frailty_project/
+•	data_raw/
+•	raw_Frailty_data.csv
+•	data_clean/
+•	raw_Fraility_data_cleaned.csv
+Data Analysis
+In this stage, we'll perform exploratory data analysis and create visualizations to gain insights from the data.
+Work to be done:
+•	Generate descriptive statistics
+•	Create visualizations to explore relationships between variables
+•	Perform any necessary statistical analyses
+Folder structure:
+•	results/
+•	descriptive_statistics.ipynb
+•	data_visualization.ipynb
+•	statistical_analysis.ipynb
+•	figures/
+•	histogram_height.png
+•	scatterplot_height_weight.png
+•	boxplot_frailty_grip_strength.png
+•	Create a report summarizing the data and analysis
+•	Create visualizations and graphics to support the report
+•	Share the report and visuals with stakeholders
